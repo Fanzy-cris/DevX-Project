@@ -1,0 +1,265 @@
+/* mobile device*/
+
+@media (max-width: 767px) {
+  .navbar {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 0.8rem;
+    align-items: center;
+    flex-direction: column;
+    min-height: max-content;
+  }
+
+  .logo h1 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .nav.links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-links > li {
+    font-size: 0.7rem;
+  }
+
+  .nav-burtons {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
+  }
+
+  .btn-signin,
+  .btn-signup {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.6rem;
+  }
+
+  .count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+
+  .count-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0, 5rem;
+    padding: 0;
+    min-width: 0;
+    padding-right: 20px;
+  }
+
+  .count > img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.2rem;
+  }
+  .count > h1 {
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .story-sec {
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.2rem;
+    gap: 2rem;
+  }
+  .story-text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .story-img {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+  .story-img > img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .sets-apart {
+    padding: 2.5rem 1rem;
+    max-width: 100%;
+  }
+
+  .sets-apart-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+  .slider-container {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+  }
+  .slid-sec > p {
+    font-size: 0.8rem;
+  }
+  .left-arrow {
+    left: -1rem;
+    font-size: 20px;
+    background: #ffffff;
+  }
+  .right-arrow {
+    right: -1rem;
+    font-size: 20px;
+    background: #ffffff;
+  }
+
+  .community-sec {
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.2rem;
+  }
+  .community-text {
+    max-width: 100%;
+    margin-left: 0;
+    gap: 2rem;
+  }
+
+  .community-title {
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .community-list {
+    padding-left: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .community-img-wrap {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .community-img {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .cta-sec {
+    padding: rem rem;
+    width: 100%;
+  }
+  .cta-card {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin-left: 0;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .cta-content {
+    max-width: 100%;
+    width: 100%;
+  }
+  .cta-title {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  .cta-desc {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .cta-wrap-img {
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .mentor-sec {
+    padding: 2.5rem 1rem;
+    max-width: 100%;
+  }
+  .mentor-head {
+    max-width: 100%;
+    margin: 0 auto 2rem auto;
+  }
+  .mentor-head > p {
+    font-size: 1.5rem;
+  }
+  .mentor-head > h2 {
+    font-size: 1.5rem;
+  }
+  .mentor-wrap-grid {
+    margin-left: 1rem;
+    margin-right: 0;
+    width: 100%;
+  }
+  .mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+  .mentor-card {
+    padding: 1rem 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mentor-ava {
+    margin-bottom: 0;
+  }
+  .mentor-role {
+    margin-bottom: 0rem;
+  }
+  .mentor-bio {
+    margin-bottom: 0;
+  }
+}
+
+/*big screen*/
+
+@media (min-width: 768px) {
+  .story-sec, .about-sec, .community-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    gap: 3rem;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  .story-content, .about-content, .community-content{
+    flex: 1;
+    max-width: 550px;
+    text-align: left;
+  }
+
+  .community-wrap{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .community-img-wrap{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+}
